@@ -1,0 +1,42 @@
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7fc;
+        margin: 0;
+        padding: 0;
+    background-image: url("bus-ksrtc-launch-inbox.jpg");
+    background-size: 100% 100vh;
+    }
+    .container {
+        width: 50%;
+        margin: auto;
+        overflow: hidden;
+        padding: 20px;
+        background: transparent
+    }
+    header {
+        background: #222e30;
+        color: #5eddf3;
+        padding: 10px 0;
+        text-align: center;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    label {
+        margin: 10px 0 5px;
+    }
+    input, select, button {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    button {
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #555;
+    }
